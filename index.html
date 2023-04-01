@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="container">
+        <form action="get" class="navbar__search">
+          <input
+            type="text"
+            name="search"
+            id="i-search"
+            class="navbar__input"
+            placeholder="ENTER KEYWORDS..."
+          /><button type="submit" class="navbar__magnifying">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <div class="navbar__center">
+          <a href="#" class="navbar__logo"
+            ><img src="assets/img/logo.png" alt=""
+          /></a>
+          <ul class="navbar__menu">
+            <li><a href="#" class="navbar__link">Home</a></li>
+            <li><a href="#" class="navbar__link">Shop</a></li>
+            <li><a href="#" class="navbar__link">Blog</a></li>
+            <li><a href="#" class="navbar__link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar__right">
+          <a href="#" class="navbar__button"
+            ><i class="fa-regular fa-user"></i></a
+          ><a href="#" class="navbar__button"
+            ><span class="navbar__badge">2</span
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></a>
+        </div>
+        <button class="navbar__hamburger">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+    <!-- SLIDER -->
+    <section class="slider">
+      <div class="container">
+        <div class="slider__element">
+          <div class="slider__item">
+            <img src="assets/img/slider/slide1.jpg" alt="lamp" />
+          </div>
+          <div class="slider__item">
+            <img src="assets/img/slider/slide2.jpg" alt="lamp" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SLIDER -->
+    <!-- PRODUCTS -->
+    <section class="products">
+      <div class="container">
+        <h2 class="products__headline">Popular products</h2>
+        <div class="products__list">
+          <div class="product-box">
+            <div class="product-box__picture">
+              <a href="#" class="product-box__image"
+                ><img
+                  class="product-box__startimage"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/products/6-shop_9b796b46-d45e-4151-8946-e2652ec7eed4.png?v=1552895886"
+                  alt="chair" /><img
+                  class="product-box__hoverimage"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/products/11-shop_dc7f2c3c-6550-45b8-b910-fbb215e9c111.png?v=1552896618"
+                  alt=""
+              /></a>
+              <ul class="product-box__buttons">
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fas fa-search"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fa-solid fa-heart"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="product-box__title">Krzesło</div>
+            <div class="product-box__price">1500PLN</div>
+            <div class="product-box__rating">
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-box__picture">
+              <a href="#" class="product-box__image"
+                ><img
+                  class="product-box__startimage"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/products/6-shop_9b796b46-d45e-4151-8946-e2652ec7eed4.png?v=1552895886"
+                  alt="chair" /><img
+                  class="product-box__hoverimage"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/products/11-shop_dc7f2c3c-6550-45b8-b910-fbb215e9c111.png?v=1552896618"
+                  alt=""
+              /></a>
+              <ul class="product-box__buttons">
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fas fa-search"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fa-solid fa-heart"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="product-box__title">Krzesło</div>
+            <div class="product-box__price">1500PLN</div>
+            <div class="product-box__rating">
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-box__picture">
+              <a href="#" class="product-box__image"
+                ><img
+                  class="product-box__startimage"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/products/6-shop_9b796b46-d45e-4151-8946-e2652ec7eed4.png?v=1552895886"
+                  alt="chair" /><img
+                  class="product-box__hoverimage"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/products/11-shop_dc7f2c3c-6550-45b8-b910-fbb215e9c111.png?v=1552896618"
+                  alt=""
+              /></a>
+              <ul class="product-box__buttons">
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fas fa-search"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fa-solid fa-heart"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="product-box__title">Krzesło</div>
+            <div class="product-box__price">1500PLN</div>
+            <div class="product-box__rating">
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-box__picture">
+              <a href="#" class="product-box__image"
+                ><img
+                  class="product-box__startimage"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/products/6-shop_9b796b46-d45e-4151-8946-e2652ec7eed4.png?v=1552895886"
+                  alt="chair" /><img
+                  class="product-box__hoverimage"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/products/11-shop_dc7f2c3c-6550-45b8-b910-fbb215e9c111.png?v=1552896618"
+                  alt=""
+              /></a>
+              <ul class="product-box__buttons">
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fas fa-search"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fa-solid fa-heart"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="product-box__title">Krzesło</div>
+            <div class="product-box__price">1500PLN</div>
+            <div class="product-box__rating">
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-box__picture">
+              <a href="#" class="product-box__image"
+                ><img
+                  class="product-box__startimage"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/products/6-shop_9b796b46-d45e-4151-8946-e2652ec7eed4.png?v=1552895886"
+                  alt="chair" /><img
+                  class="product-box__hoverimage"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/products/11-shop_dc7f2c3c-6550-45b8-b910-fbb215e9c111.png?v=1552896618"
+                  alt=""
+              /></a>
+              <ul class="product-box__buttons">
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fas fa-search"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fa-solid fa-heart"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="product-box__title">Krzesło</div>
+            <div class="product-box__price">1500PLN</div>
+            <div class="product-box__rating">
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-box__picture">
+              <a href="#" class="product-box__image"
+                ><img
+                  class="product-box__startimage"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/products/6-shop_9b796b46-d45e-4151-8946-e2652ec7eed4.png?v=1552895886"
+                  alt="chair" /><img
+                  class="product-box__hoverimage"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/products/11-shop_dc7f2c3c-6550-45b8-b910-fbb215e9c111.png?v=1552896618"
+                  alt=""
+              /></a>
+              <ul class="product-box__buttons">
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fas fa-search"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fa-solid fa-heart"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="product-box__title">Krzesło</div>
+            <div class="product-box__price">1500PLN</div>
+            <div class="product-box__rating">
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-box__picture">
+              <a href="#" class="product-box__image"
+                ><img
+                  class="product-box__startimage"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/products/6-shop_9b796b46-d45e-4151-8946-e2652ec7eed4.png?v=1552895886"
+                  alt="chair" /><img
+                  class="product-box__hoverimage"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/products/11-shop_dc7f2c3c-6550-45b8-b910-fbb215e9c111.png?v=1552896618"
+                  alt=""
+              /></a>
+              <ul class="product-box__buttons">
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fas fa-search"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fa-solid fa-heart"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="product-box__title">Krzesło</div>
+            <div class="product-box__price">1500PLN</div>
+            <div class="product-box__rating">
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="product-box">
+            <div class="product-box__picture">
+              <a href="#" class="product-box__image"
+                ><img
+                  class="product-box__startimage"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/products/6-shop_9b796b46-d45e-4151-8946-e2652ec7eed4.png?v=1552895886"
+                  alt="chair" /><img
+                  class="product-box__hoverimage"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/products/11-shop_dc7f2c3c-6550-45b8-b910-fbb215e9c111.png?v=1552896618"
+                  alt=""
+              /></a>
+              <ul class="product-box__buttons">
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fas fa-search"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="product-box__button"
+                    ><i class="fa-solid fa-heart"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="product-box__title">Krzesło</div>
+            <div class="product-box__price">1500PLN</div>
+            <div class="product-box__rating">
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END PRODUCTS -->
+    <!-- BLOG -->
+    <section class="blog">
+      <div class="container">
+        <h2 class="blog__headline">Latest News</h2>
+        <div class="blog__posts">
+          <div class="blog__post">
+            <div class="blog__postbg">
+              <a href="#" class="blog__photo"
+                ><img
+                  class="blog__img"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/articles/blog-v2.jpg?v=1550117048"
+                  alt="room"
+              /></a>
+              <div class="blog__info">
+                <a href="#" class="blog__category">Trending</a
+                ><a href="#" class="blog__title">More on this topic</a>
+                <p class="blog__desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                  minima cupiditate corrupti numquam assumenda? Dolorem soluta
+                  consectetur molestiae ex illum, aperiam est omnis ipsa dicta
+                  temporibus, et nisi porro minima.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="blog__post">
+            <div class="blog__postbg">
+              <a href="#" class="blog__photo"
+                ><img
+                  class="blog__img"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/articles/blog-v2.jpg?v=1550117048"
+                  alt="room"
+              /></a>
+              <div class="blog__info">
+                <a href="#" class="blog__category">Trending</a
+                ><a href="#" class="blog__title">More on this topic</a>
+                <p class="blog__desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                  minima cupiditate corrupti numquam assumenda? Dolorem soluta
+                  consectetur molestiae ex illum, aperiam est omnis ipsa dicta
+                  temporibus, et nisi porro minima.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="blog__post">
+            <div class="blog__postbg">
+              <a href="#" class="blog__photo"
+                ><img
+                  class="blog__img"
+                  src="https://cdn.shopify.com/s/files/1/0085/6100/0553/articles/blog-v2.jpg?v=1550117048"
+                  alt="room"
+              /></a>
+              <div class="blog__info">
+                <a href="#" class="blog__category">Trending</a
+                ><a href="#" class="blog__title">More on this topic</a>
+                <p class="blog__desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                  minima cupiditate corrupti numquam assumenda? Dolorem soluta
+                  consectetur molestiae ex illum, aperiam est omnis ipsa dicta
+                  temporibus, et nisi porro minima.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END BLOG -->
+    <!-- PROMOBANNER -->
+    <section class="promo">
+      <div class="container">
+        <div class="promo__banner">
+          <div class="promo__sectionleft">
+            <p class="promo__tag">Sale up to 50%</p>
+            <h4 class="promo__headline">Arm Chair</h4>
+          </div>
+          <div class="promo__sectionright">
+            <p class="promo__tag">Special Deals</p>
+            <h4 class="promo__headline">Dining Table</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END PROMOBANNER -->
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footer__infosection">
+            <img
+              class="footer__logo"
+              src="assets/img/logo.png"
+              alt="minim logo"
+            />
+            <p class="footer__info">
+              WE ARE EAGER TO HELP YOU TO MAKE YOUR HOUSE MORE BEAUTIFUL, MORE
+              LIVABLE WITH AN AFFORDABLE PRICE & GOOD QUALITY OF FURNITURES.
+            </p>
+            <ul class="footer__sociallinks">
+              <li>
+                <a href="#" class="footer__sociallink"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="footer__sociallink"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="footer__sociallink"
+                  ><i class="fa-brands fa-pinterest-p"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__links">
+            <div class="footer__linkssection">
+              <h5 class="footer__headline">Shop</h5>
+              <ul class="footer__mainlinks">
+                <li><a href="#">Our Stores</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Wishlist</a></li>
+              </ul>
+            </div>
+            <div class="footer__linkssection">
+              <h5 class="footer__headline">Help</h5>
+              <ul class="footer__mainlinks">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Guides</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__newsletter">
+            <h5 class="footer__headline">Newsletter</h5>
+            <form action="get" class="footer__email">
+              <input
+                type="text"
+                name="email"
+                id="i-email"
+                class="footer__input"
+                placeholder="YOUR@EMAIL.COM"
+              /><button type="submit" class="footer__subscribe">
+                SUBSCRIBE
+              </button>
+            </form>
+            <p class="footer__consent">
+              I want emails from Minim with products information, promotions,
+              advertisements. I can unsubscribe any time using the unsubscribe
+              at the end of all emails. Contact Minim
+              <a href="#" class="footer__newsletterlinks">here</a>. Read our
+              <a href="#" class="footer__newsletterlinks">Privacy Policy.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+    <!-- COPYRIGHTS -->
+    <section class="copyrights">
+      <div class="container">
+        <hr />
+        <div class="copyrights__section">
+          <p class="copyrights__year">Copyright © 2023</p>
+          <ul class="copyrights__links">
+            <li><a href="#" class="copyrights__link">Privacy Policy</a></li>
+            <li><a href="#" class="copyrights__link">Terms of sevices</a></li>
+            <li><a href="#" class="copyrights__link">Affiliation</a></li>
+            <li><a href="#" class="copyrights__link">Sponsors</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- END COPYRIGHTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

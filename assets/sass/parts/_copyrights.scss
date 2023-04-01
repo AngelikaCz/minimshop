@@ -1,0 +1,39 @@
+.copyrights {
+
+  &__section {
+    margin: 15px 0;
+  }
+
+  hr {
+    background-color: $copyrightsBreakLineColor;
+    height: 1px;
+    border: none;
+  }
+
+  &__section {
+    display: flex;
+    line-height: 20px;
+    align-items: center;
+  }
+
+  &__year {
+    width: 50%;
+    color: $copyrightsMainFontColor;
+    font-size: 12px;
+  }
+
+  &__links {
+    @include reset-list;
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+
+  &__link {
+    text-transform: uppercase;
+    color: $copyrightsMainFontColor;
+    font-size: 12px;
+  }
+
+}
